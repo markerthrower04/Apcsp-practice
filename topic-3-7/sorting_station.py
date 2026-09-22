@@ -1,30 +1,37 @@
 
-user_input = input("Enter code here")
-shape = user_input[0:4]
-color = user_input[4:7]
-size = int(user_input[7:10])
-mass = int(user_input[10:14])
-condition = user_input[14]
-destination = "E"
+Label = input()
 
-if condition == "D" or size > int(50) > (2000):
+shape = Label[0:4]
+color = Label[4:7]
+size = int(Label[7:10])
+mass = int(Label[10:14])
+condition = Label[14]
+
+destination = "E"
+doinwit = "Box"
+
+if condition == "D" or size > 50 or mass > 2000:
    destination = "INSPECT"
     
-
-if shape == "BAll" :
-    if color == "Red" :
-        if size > 10:
-            destination = "B"
-elif shape ==  "BAll":
+elif shape == "BALL" and color == "Red" and size > 10:
+    destination = "B"
+elif shape ==  "BALL":
     destination = "A"
 
-if shape == "cube":
-    if color == "BlU" or color == "GRN": 
-     if size <=10:
-        destination = "C"
+if shape == "cube" and (color == "BlU" or color == "GRN") and size <= 10:
+    destination = "C"
 elif shape == "cube":
-        destination = "D"
+    destination = "D"
+
+if destination == "INSPECT":
+    doinwit = "HOLD"
+elif shape == "CONE" or mass > 1000:
+    doinwit = "CRATE"
+elif shape == "BALL":
+    doinwit = "PADDED"
+
 
 
 print(destination)
+print(doinwit)
 
