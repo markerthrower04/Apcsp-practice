@@ -28,7 +28,7 @@ labels = ["hours", "minutes"]
 clock_value.append(17)
 labels.append("seconds")
 
-selected_index = 0
+selected_index = 2
 
 clock_value = clock_value[selected_index]
 label = labels[selected_index]
