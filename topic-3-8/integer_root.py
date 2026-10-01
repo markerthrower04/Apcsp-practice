@@ -10,6 +10,5 @@ while (upper - lower > 1) and (lower*lower <= num < upper*upper):
         else:
             upper = midpoint
 print("Lower bound = " + str(lower))
-print("---------------")
 print("Upper bound = " + str(upper))
 

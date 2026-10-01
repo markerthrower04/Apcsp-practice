@@ -1,5 +1,5 @@
-a = 7
-b = 0
+a = 48
+b = 18
 
 repetitions = 0
 
