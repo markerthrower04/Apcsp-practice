@@ -1,13 +1,16 @@
 #
 # 1). Java -> Python
-#        = -> ==
+#        = -> == (for comparing)
 #  if then -> if : (: replaces then)
 #
 #
 #
+# 2). info 
+#     guide: 1). py = python, 2). * = bullet point, - = sub bullet point
 #
-#
-#
+#  * there are to types of loops in py.
+#      - if loops which repeat if only if the condition/s are true
+#      - while loops which repeat until the condition/s are true
 #
 #
 #
