@@ -11,9 +11,7 @@ if num >= 10:
         while num > 0 :
             total += num % 10
             num = num // 10
-            
-       
-
+        
         num = total
     print("Total = "+ str(total)+" ipass: "+str(passes))
         
