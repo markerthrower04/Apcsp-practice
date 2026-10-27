@@ -12,6 +12,8 @@
 #      - if loops which repeat if only if the condition/s are true
 #      - while loops which repeat until the condition/s are true
 #      - for loops 
+#       - for each loops
+
 #
 #
 #

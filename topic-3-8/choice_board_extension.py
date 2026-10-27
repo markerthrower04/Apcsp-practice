@@ -1,4 +1,4 @@
-# idea = feet avg elevation per mile tracker
+# idea = feet avg elevation per mile trackerS
 
 miles = [25, 11, 3, 3, 23, 15, 5, 14, 23, 19] # miles
 elv =[2800, 700, 200, 100, 2000, 1300, 1000, 1500, 2000, 1700] # elevation
@@ -30,7 +30,7 @@ for a in range(0,len(elv),1):
     max_a = a
 
 
-# avg. elevation/mile
+# avg elevation/mile
 ratio_m = avg_E / avg_M 
 print("Average elevation gain per mile:")
 print(str(ratio_m) + " ft of gain")
